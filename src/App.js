@@ -1,15 +1,9 @@
-
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <nav>
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </nav>
-  );
+    <Navbar/>
+  ) ;
 }
 
 export default App;
