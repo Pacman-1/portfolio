@@ -6,7 +6,7 @@ margin: 0;
 padding: 0;
 }
 
-ul{
+.navBar{
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
@@ -16,14 +16,16 @@ ul{
      position:relative;
      z-index:2;
      font-family: 'Roboto', sans-serif;
+     border-width: 0 ;
 }
-ul li{
+
+.navBar li{
     font-size: 20px;
    padding-top: 13px;
    color: #ff8800;  
    
 }
-ul li:hover{
+.navBar li:hover{
     transition: all .2s ease;
     color: #ffd174;  
 
@@ -31,4 +33,3 @@ ul li:hover{
 .home{
     margin-right:200px;
 }
-

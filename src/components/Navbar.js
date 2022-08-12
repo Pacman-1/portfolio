@@ -5,13 +5,14 @@ const navBar =()=>{
 
 return (
 
+    // after importing bootstrap ul was causing whitespace below
     <nav>
-        <ul>
+        <div className="navBar">
             <li className="home">Home</li>
             <li>About</li>
             <li>Projects</li>
             <li>Contact</li>
-        </ul>
+        </div>
     </nav>
     
 );

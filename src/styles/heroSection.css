@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@500&family=Roboto:wght@700&family=Rubik+Distressed&display=swap');
 *{
     box-sizing: border-box;
-    
 }
 
 section{
@@ -14,7 +13,7 @@ section{
 }
 .name{
     font-family: 'Roboto', sans-serif;
-    color: #ff8800ad;  
+    color: #ff8800;  
     font-size: 60px;
 }
 
@@ -26,6 +25,34 @@ section{
 .about-me h1{
     margin: 20px;
 }
+.socials a,.socials a:hover{
+    text-decoration:none;
+    color: #ff8800;
+}
+.socials button,i{
+    margin: 10px;
+}
+.socials button{
+    background-color: #ff8800;
+    color: #36363a;
+}
+.socials button,.socials button:hover{
+    color: #36363a;
+    background-color: #ff8800;
+    border: none;
+}
+.socials button:focus,.socials button:active {
+    background-color: #ff8800;
+    color: #36363a;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  .socials button:hover,i:hover{
+    transition: all .3s ease;
+    scale: 1.1;
+  }
+
+
 
 /* General styling  */
 .page-sections{
