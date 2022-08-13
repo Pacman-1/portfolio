@@ -13,8 +13,9 @@ section{
 }
 .name{
     font-family: 'Roboto', sans-serif;
-    color: #ff8800;  
+    color: #dd7a08;  
     font-size: 60px;
+    font-weight: 900;
 }
 
 .about-me{
@@ -27,7 +28,7 @@ section{
 }
 .socials a,.socials a:hover{
     text-decoration:none;
-    color: #ff8800;
+    color: #f78503;
 }
 .socials button,i{
     margin: 10px;
@@ -38,7 +39,7 @@ section{
 }
 .socials button,.socials button:hover{
     color: #36363a;
-    background-color: #ff8800;
+    background-color: #d47508;
     border: none;
 }
 .socials button:focus,.socials button:active {

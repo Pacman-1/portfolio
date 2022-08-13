@@ -3,4 +3,31 @@
     height: 350px;
     width: 400px;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: #5d5c64;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #ff7e06;
+    
+}
+
+.cardName{
+    font-size: 20px;
+    font-weight:600;
+    color: #db7704;
+}
+.cardDescription{
+    font-size: 17px;
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.897);
 }

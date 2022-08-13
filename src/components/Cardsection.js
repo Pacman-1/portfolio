@@ -3,11 +3,13 @@ import "../styles/cardSection.css";
 
 
 
-const CardCase =() =>{
+const CardCase =(props) =>{
 return (
-   <div>
-        <div className="cards">jhg</div>
-   </div>
+   <section className="cards">
+      <div className="image"><i class="fa-solid fa-code"></i></div>
+        <div className="cardName">{props.cardName}</div>
+        <div className="cardDescription">{props.description}</div>
+   </section>
 )
 }
 
