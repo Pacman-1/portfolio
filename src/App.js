@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar";
 import Herosection from "./components/Herosection"
-
+import Skillsection from "./components/Skillsection";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
 
     <div className="page-sections">
     <Herosection/>
-   
+   <Skillsection/>
     </div>
 
     </div>

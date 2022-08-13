@@ -1,7 +1,6 @@
 import React from "react";
 import "../styles/heroSection.css"
 import imagePhoto from "../images/image1.png"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
 
@@ -25,8 +24,7 @@ const Herosection = ()=>{
               <a href="https://github.com/Pacman-1" target={"__blank"}> <i class="fa-brands fa-github fa-2xl"></i></a> 
               
                <a href="https://www.linkedin.com/in/roland-cook-455870247/" target={"__blank"}> <i class="fa-brands fa-linkedin fa-2xl"></i></a>
-                
-                        
+            
                 </div>
 
             </div>
