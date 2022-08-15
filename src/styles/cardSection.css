@@ -1,5 +1,5 @@
 .cards{
-    background-color: #5d5c64;
+    background-color: #4f4e55;
     height: 350px;
     width: 400px;
     border-radius: 20px;
@@ -18,7 +18,6 @@
     background-color: #ff7e06;
     
 }
-
 .cardName{
     font-size: 20px;
     font-weight:600;
