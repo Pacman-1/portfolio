@@ -7,7 +7,7 @@ section{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #5d5c64;
+    background-color: #515057;
     height: 600px;
     
 }
@@ -26,20 +26,29 @@ section{
 .about-me h1{
     margin: 20px;
 }
-.socials a,.socials a:hover{
+.socials i,.socials i:hover{
+    
+    padding: 20px;
+    background-image: linear-gradient(to top, #fac639, #ff5e00);
     text-decoration:none;
-    color: #f78503;
+   background-size: 100%;
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.socials a{
+    text-decoration:none;
 }
 .socials button,i{
     margin: 10px;
 }
-.socials button{
-    background-color: #ff8800;
+/*.socials button{
+    background-color: linear-gradient(45deg, #f7ec23, #61192d);
     color: #36363a;
 }
+*/
 .socials button,.socials button:hover{
     color: #36363a;
-    background-color: #d47508;
+    background-image: linear-gradient(to top, #fac639, #ff5e00);
     border: none;
 }
 .socials button:focus,.socials button:active {
