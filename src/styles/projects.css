@@ -1,0 +1,19 @@
+.project-section{
+    display: flex;
+    justify-content: end;
+    background-color: #39383d;
+    height: 600px;
+}
+.project-title{
+    font-size: 3rem;
+    color: rgba(226, 220, 220, 0.938);
+    margin-right: 300px;
+}
+.project-section span{
+    display: block;
+    width: 80px;
+    height: 7px;
+    background:linear-gradient(45deg, #fac639, #ff5e00);
+    border-radius: 5px;
+    margin:10px 0px 0px;
+}
