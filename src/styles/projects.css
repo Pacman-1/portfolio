@@ -1,8 +1,8 @@
-.project-section{
+.title-container{
+    flex-direction: column;
     display: flex;
-    justify-content: end;
+    align-items: flex-end;
     background-color: #39383d;
-    height: 600px;
 }
 .project-title{
     font-size: 3rem;
@@ -10,10 +10,70 @@
     margin-right: 300px;
 }
 .project-section span{
+    position: relative;
+    margin-right: 200px;
     display: block;
     width: 80px;
     height: 7px;
     background:linear-gradient(45deg, #fac639, #ff5e00);
     border-radius: 5px;
-    margin:10px 0px 0px;
+    margin:40px 0px 0px 0px;
+}
+.project-display{
+    display: flex;
+    background-color: #39383d;
+    height: 900px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+.span{
+    margin-right: 300px;
+}
+.project-card{
+    width: 40vw;
+    flex-direction: column;
+    margin: 100px 0px 0px 0px;
+    display: flex;
+    padding: 20px;
+    background-color: #4f4e55;
+    height: 300px;
+    border-radius: 0px 20px 20px 0px;
+}
+.card-case{
+  
+    display: flex;
+}
+.card-image{
+display: flex;
+    margin-top: 100px;
+    width: 400px;
+    height: 300px;
+}
+.buttons {
+cursor: pointer;
+display: flex;
+border-radius: 5px;
+margin: 20px;
+}
+.front-btn{
+    margin: 5px;
+    background-color: #ff5e00;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+
+}
+.back-btn{
+    margin: 5px;
+    background-color: #ffffff;
+    color:#ff5e00;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
 }

@@ -8,7 +8,6 @@ function App() {
   return (
     <div>
     <Navbar/>
-
     <div className="page-sections">
     <Herosection/>
    <Skillsection/>
