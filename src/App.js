@@ -3,6 +3,7 @@ import Herosection from "./components/Herosection"
 import Skillsection from "./components/Skillsection";
 import Aboutme from "./components/Aboutme";
 import Projectsection from "./components/Projectsection";
+import Technologies from "./components/Technologies";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
    <Skillsection/>
     <Aboutme/>
     <Projectsection/>
+    <Technologies/>
     </div>
 
     </div>
