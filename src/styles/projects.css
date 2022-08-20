@@ -33,6 +33,7 @@
     margin-right: 300px;
 }
 .project-card{
+     box-shadow: 4px 5px 23px -1px rgba(0, 0, 0, 0.4);
     width: 40vw;
     flex-direction: column;
     margin: 100px 0px 0px 0px;
