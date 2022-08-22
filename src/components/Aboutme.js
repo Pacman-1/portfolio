@@ -4,7 +4,7 @@ import imagePhoto from "../images/image1.png"
 
 const Aboutme = ()=>{
 return(
-    <section className="section-container">
+    <section className="section-container" id="about-link">
         <div className="about-me-section">
             <span></span>
             <h1 className="about-me-text">About Me</h1>
