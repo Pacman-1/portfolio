@@ -24,9 +24,9 @@ return (
             <img src={imagePhoto} alt=""  className="card-image"/>
 
             <div className="project-card">
-                <h1>Project Name</h1>
-                <p>Description</p>
-                <p>Technologies used</p>
+                <h1>Cosmos</h1>
+                <p>Used ninja's planet API which supports 7000+ planets. Type in any planet to display the available information.</p>
+                <p>HTML, CSS, Javascript and React</p>
 
                 <div className="buttons">
                 <button className="front-btn">Front End</button>
