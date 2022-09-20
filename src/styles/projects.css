@@ -78,3 +78,52 @@ margin: 20px;
     padding: 10px;
     border: none;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .project-display{
+        height: 1200px;
+    }
+  .title-container span{
+    margin-right: -40px;
+  }
+  .title-container h1{
+    margin-right: 150px;
+  }
+  .title-container{
+    margin-bottom: -100px;
+  }
+  .card-case{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    margin: 10px;
+  }
+  .card-image{
+    width: 350px;
+    margin-bottom: -100px;
+    border-radius: 20px 20px 20px 20px;
+
+  }
+  .project-card{
+    width: 350px;
+    padding-bottom: 50px;
+    border-radius: 20px 20px 20px 20px;
+    
+  }
+
+ 
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

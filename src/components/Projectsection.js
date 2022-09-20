@@ -1,5 +1,6 @@
 import React from "react";
 import imagePhoto from "../images/blackjack.jpg"
+import imagePhoto2 from "../images/cosmos.png"
 import "../styles/projects.css"
 
 
@@ -21,16 +22,16 @@ return (
         <div className="project-display">
 
             <div className="card-case">
-            <img src={imagePhoto} alt=""  className="card-image"/>
+            <img src={imagePhoto2} alt=""  className="card-image"/>
 
             <div className="project-card">
                 <h1>Cosmos</h1>
                 <p>Used ninja's planet API which supports 7000+ planets. Type in any planet to display the available information.</p>
-                <p>HTML, CSS, Javascript and React</p>
+                <p> Technolgoies Used: HTML, CSS, Javascript and React</p>
 
                 <div className="buttons">
-                <button className="front-btn">Front End</button>
-                <button className="back-btn">Back End</button>
+                <a href="https://pacman1-cosmos.netlify.app/ " target={"__blank"}><button className="front-btn">Front End</button></a>
+                <a href="https://github.com/Pacman-1/cosmos" target={"__blank"}><button className="back-btn">Back End</button></a>
                 
                 </div>
             </div>
