@@ -54,13 +54,43 @@ flex-direction: column;
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) and (max-width:800px) {
+    .about-me-section{
+        display: flex;
+        padding-top: 100px;
+        width: 500px;
+        height: 700px;
+        font-size: 25px;
+       }
+       .about-me-section p{
+        margin: 20px;
+        line-height: 35px;
+    }
+    
+   
+    .section-container{
+        padding: 0px 0px;
+        justify-content: space-between;
+    }
+ .section-container img{
+    margin-right: 50px;
+ }
+ 
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+    .section-container img{
+        height: 400px;
+     }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+    .section-container img{
+        height: 500px;
+     }
+}
