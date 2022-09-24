@@ -79,7 +79,18 @@ flex-direction: column;
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+    .about-me-section p{
+        width: 700px;
+        margin-left: -300px;
+        padding: 0;
+     }
+     .section-container img{
+        height: 300px;
+        margin-left: -300px;
+     }
+ 
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -93,4 +104,5 @@ flex-direction: column;
     .section-container img{
         height: 500px;
      }
+     
 }

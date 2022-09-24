@@ -2,7 +2,7 @@ form {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    width: 50%;
+    width: 30%;
     font-size: 16px;
     color: white;
     margin-top: 2rem;
@@ -45,8 +45,22 @@ textarea {
     justify-content: center;
     align-items: center;
     background-color: #39383d;
+    
 }
 .contact-me{
     color: rgba(255, 255, 255, 0.801);
     display: flex;
 }
+
+@media only screen and (max-width: 600px) {
+    form {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 50%;
+        font-size: 16px;
+        color: white;
+        margin-top: 2rem;
+    }
+    
+ }
