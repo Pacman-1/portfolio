@@ -103,6 +103,20 @@ flex-direction: column;
 @media only screen and (min-width: 1200px) {
     .section-container img{
         height: 500px;
+        margin-right: -200px;
+     }
+     .sbout-me-section{
+       padding-right: 300px;
+     }
+     .about-me-section p{
+        width: 1200px;
+     }
+     .section-container p{
+       padding-right: 20px;
+       font-size: 1.7rem;
+     }
+     .about-me-text{
+        padding-right: -200px;
      }
      
 }

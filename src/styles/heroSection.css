@@ -109,4 +109,11 @@ section{
     img{
         height: 500px;
      }
+     .about-me h3{
+        font-size:40px;
+     }
+     .socials{
+        padding: 30px;
+        font-size: 22px;
+     }
 }
