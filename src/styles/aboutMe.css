@@ -102,14 +102,12 @@ flex-direction: column;
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .section-container img{
-        height: 500px;
+        height: 400px;
         margin-right: -200px;
      }
-     .sbout-me-section{
-       padding-right: 300px;
-     }
+     
      .about-me-section p{
-        width: 1200px;
+        max-width: 1200px;
      }
      .section-container p{
        padding-right: 20px;
@@ -117,6 +115,39 @@ flex-direction: column;
      }
      .about-me-text{
         padding-right: -200px;
+     }    
+     .about-me-section{
+       margin-right: 100px;
+     }
+}
+
+@media screen and (min-width: 3840px) {
+    .section-container img{
+        height: 600px;
      }
      
-}
+     .about-me-section {
+        padding-left: 100px;
+        width: 1200px;
+     }
+     .section-container p{
+       padding-right: 20px;
+       font-size:1.8rem;
+       line-height: 55px;
+     }
+     .about-me-text{
+        padding-right: -200px;
+     }
+     .about-me-section h1{
+        padding-right: 70px;
+        font-size: 50px;
+        margin-bottom: 40px;
+     }    
+
+     .about-me-section span{
+        height: 10px;
+        width: 120px;
+     }
+  
+   }
+

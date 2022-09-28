@@ -63,3 +63,20 @@
     font-size: 22px;
    }
   }
+
+  @media screen and (min-width: 3840px) {
+
+  .cards{
+    height: 400px;
+    width: 500px;
+  }
+  .cardName{
+    font-size: 40px;
+   }
+   .cardDescription{
+    margin: 10px;
+    font-size: 26px;
+   }
+
+ }
+  
