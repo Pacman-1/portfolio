@@ -10,7 +10,7 @@ return(
             <h1 className="about-me-text">About Me</h1>
 
             <p>Hi, my name is Roland Cook, a Front End Developer from Concord, NC. I love building websites that solve life's unique problems.</p>
-            <p>I primarily work with CSS, HTML , Javascript and React. I have build a number of websites and applications using these skills. I also enjoy working in Photoshop</p>
+            <p>I primarily work with CSS, HTML , Javascript and React. I have built a number of websites and applications using these skills. I also enjoy working in Photoshop</p>
         </div>
         
         
