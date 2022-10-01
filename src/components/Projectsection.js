@@ -1,5 +1,4 @@
 import React from "react";
-import imagePhoto from "../images/blackjack.jpg"
 import imagePhoto2 from "../images/cosmos.png"
 import "../styles/projects.css"
 
@@ -40,7 +39,7 @@ return (
 
 
             <div className="card-case">
-            <img src={imagePhoto} alt=""  className="card-image"/>
+            <img src={imagePhoto2} alt=""  className="card-image"/>
 
             <div className="project-card">
                 <h1>Project Name</h1>

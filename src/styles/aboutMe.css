@@ -121,6 +121,8 @@ flex-direction: column;
      }
 }
 
+
+
 @media screen and (min-width: 3840px) {
     .section-container img{
         height: 600px;
