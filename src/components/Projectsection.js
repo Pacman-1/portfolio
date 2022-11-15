@@ -42,9 +42,9 @@ return (
             <img src={imagePhoto2} alt=""  className="card-image"/>
 
             <div className="project-card">
-                <h1>Project Name</h1>
-                <p>Description</p>
-                <p>Technologies used</p>
+                <h1>Cops and Robbers</h1>
+                <p>A simple TicTac-Toe game with a cops and robbers theme. Created this project to help with my Javascipt skills</p>
+                <p>Technolgoies Used: HTML, CSS and Javascript </p>
 
                 <div className="buttons">
                 <button className="front-btn">Front End</button>
