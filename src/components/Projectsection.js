@@ -47,8 +47,8 @@ return (
                 <p>Technolgoies Used: HTML, CSS and Javascript </p>
 
                 <div className="buttons">
-                <button className="front-btn">Front End</button>
-                <button className="back-btn">Back End</button>
+              <a href="https://pacman-1.github.io/Cops-and-Robbers/"><button className="front-btn">Front End</button></a>
+              <a href="https://github.com/Pacman-1/Cops-and-Robbers"> <button className="back-btn">Back End</button></a>
                 
                 </div>
             </div>
