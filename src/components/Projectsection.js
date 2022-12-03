@@ -53,19 +53,32 @@ return (
                 
                 </div>
             </div>
+            
+            </div>
+
+            <div className="card-case">
+            <img src={imagePhoto3} alt=""  className="card-image"/>
+
+            <div className="project-card">
+                <h1>Circuit</h1>
+                <p>Ecommerce website for a candy shop</p>
+                <p>Technolgoies Used: HTML, CSS, React and Javascript </p>
+
+                <div className="buttons">
+              <a  target={"__blank"}><button className="front-btn">Front End</button></a>
+              <a target={"__blank"}> <button className="back-btn">Back End</button></a>
+                
+                </div>
+            </div>
+            
             </div>
 
 
 
-
-
-
-
             </div>
 
 
 
-    
                 
     </div>
 )
